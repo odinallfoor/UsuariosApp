@@ -41,10 +41,10 @@ La documentación de la API está integrada con Swagger. Puedes acceder a la doc
 
 4. Ejecuta la aplicación desde tu IDE o utilizando Maven:
 
-   - mvn spring-boot:run
+   - `mvn spring-boot:run`
 
 
-La aplicación estará disponible en `http://localhost:puerto`.
+La aplicación estará disponible en `http://localhost:8080`.
 
 ## Endpoints
 
