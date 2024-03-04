@@ -114,3 +114,11 @@ curl --location 'http://localhost:8080/api/users/add' \
 ````
 
 Esta solicitud enviará datos de usuario al endpoint api/users/add del servidor local en localhost:8080. Asegúrate de que el servidor esté en funcionamiento antes de ejecutar la solicitud.
+
+## Arquitectura de la Solución
+
+```mermaid
+graph LR
+    A[Cliente] --> B[API Spring Boot];
+    B --> C{Base de Datos};
+    C --> D[Memoria H2];
